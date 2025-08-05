@@ -1,0 +1,12 @@
+{
+  "name": "task-manager-dev",
+  "image": "ghcr.io/codespaces/images/python-node:latest",
+  "postCreateCommand": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["ms-python.python", "esbenp.prettier-vscode"]
+    }
+  },
+  "forwardPorts": [5000, 3000]
+}
