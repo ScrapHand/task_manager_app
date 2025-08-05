@@ -1,0 +1,7 @@
+{
+  "name": "task-manager-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'Run React here'"
+  }
+}
